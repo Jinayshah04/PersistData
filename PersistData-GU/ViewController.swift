@@ -9,7 +9,6 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var nameLbl: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,9 +19,8 @@ class ViewController: UIViewController {
     func setUsrDefaults() {
         savetoUsrDefault(key: "User", value: "John Appleseed")
         let str = readFromUsrDefault(key: "User")
-        nameLbl.text = String(str)
         print(str)
-        navigationItem.title = str
+        navigationItem.title = "Hello \(str)"
     }
 
     

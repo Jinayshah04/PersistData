@@ -13,6 +13,8 @@
 		07D736862CA13D48005A4985 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 07D736852CA13D48005A4985 /* Base */; };
 		07D736882CA13D49005A4985 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07D736872CA13D49005A4985 /* Assets.xcassets */; };
 		07D7368B2CA13D49005A4985 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 07D7368A2CA13D49005A4985 /* Base */; };
+		07E170042CA18F1900C91260 /* JokeDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 07E170022CA18F1900C91260 /* JokeDataModel.xcdatamodeld */; };
+		07E170062CA18F9300C91260 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E170052CA18F9300C91260 /* CoreDataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		07D736872CA13D49005A4985 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		07D7368A2CA13D49005A4985 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		07D7368C2CA13D49005A4985 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07E170032CA18F1900C91260 /* JokeDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JokeDataModel.xcdatamodel; sourceTree = "<group>"; };
+		07E170052CA18F9300C91260 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				07D736872CA13D49005A4985 /* Assets.xcassets */,
 				07D736892CA13D49005A4985 /* LaunchScreen.storyboard */,
 				07D7368C2CA13D49005A4985 /* Info.plist */,
+				07E170022CA18F1900C91260 /* JokeDataModel.xcdatamodeld */,
+				07E170052CA18F9300C91260 /* CoreDataManager.swift */,
 			);
 			path = "PersistData-GU";
 			sourceTree = "<group>";
@@ -140,6 +146,8 @@
 			files = (
 				07D736832CA13D48005A4985 /* ViewController.swift in Sources */,
 				07D7367F2CA13D48005A4985 /* AppDelegate.swift in Sources */,
+				07E170042CA18F1900C91260 /* JokeDataModel.xcdatamodeld in Sources */,
+				07E170062CA18F9300C91260 /* CoreDataManager.swift in Sources */,
 				07D736812CA13D48005A4985 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -361,6 +369,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		07E170022CA18F1900C91260 /* JokeDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				07E170032CA18F1900C91260 /* JokeDataModel.xcdatamodel */,
+			);
+			currentVersion = 07E170032CA18F1900C91260 /* JokeDataModel.xcdatamodel */;
+			name = JokeDataModel.xcdatamodeld;
+			path = "/Users/jaiminraval27/Documents/my iOS apps/GU/PersistData-GU/PersistData-GU/JokeDataModel.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 07D736732CA13D48005A4985 /* Project object */;
 }
